@@ -48,7 +48,8 @@
         "shared.quote",
         "shared.rich-text",
         "shared.slider",
-        "shared.cta"
+        "shared.cta",
+        "shared.testimonials"
       ]
     }
   }
