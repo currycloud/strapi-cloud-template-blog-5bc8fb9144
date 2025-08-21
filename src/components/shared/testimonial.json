@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_testimonial_items",
+  "info": {
+    "displayName": "Testimonial Item",
+    "icon": "comment-alt",
+    "description": "Single testimonial with author"
+  },
+  "options": {},
+  "attributes": {
+    "quote": { "type": "text", "required": true },
+    "highlight": { "type": "string" },
+    "author_name": { "type": "string", "required": true },
+    "author_title": { "type": "string" },
+    "author_avatar": {
+      "type": "media",
+      "allowedTypes": ["images"],
+      "multiple": false
+    },
+    "cta_label": { "type": "string" },
+    "cta_href": { "type": "string" }
+  }
+}

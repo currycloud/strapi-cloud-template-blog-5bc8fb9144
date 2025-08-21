@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_testimonials_blocks",
+  "info": {
+    "displayName": "Testimonials",
+    "icon": "comments",
+    "description": "Group of testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "subheading": { "type": "text" },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial"
+    }
+  }
+}
