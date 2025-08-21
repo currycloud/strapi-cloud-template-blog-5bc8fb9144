@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "bullhorn",
+    "description": "Inline call-to-action block"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "text": { "type": "text" },
+    "buttonText": { "type": "string" },
+    "buttonUrl": { "type": "string" }
+  }
+}
