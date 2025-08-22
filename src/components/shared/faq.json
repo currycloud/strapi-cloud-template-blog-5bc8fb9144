@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_faq_blocks",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "question",
+    "description": "Accordion list of FAQs"
+  },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string" },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faq-item"
+    }
+  }
+}
