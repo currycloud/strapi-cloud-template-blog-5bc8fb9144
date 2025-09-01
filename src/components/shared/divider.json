@@ -1,0 +1,92 @@
+{
+  "collectionName": "components_shared_dividers",
+  "info": {
+    "displayName": "Divider",
+    "icon": "minus",
+    "description": "A visual divider line to separate content sections"
+  },
+  "options": {},
+  "attributes": {
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "simple",
+        "gradient",
+        "dots",
+        "wave",
+        "double",
+        "decorative"
+      ],
+      "default": "simple",
+      "required": true
+    },
+    "thickness": {
+      "type": "enumeration",
+      "enum": [
+        "thin",
+        "medium",
+        "thick"
+      ],
+      "default": "medium"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "gray",
+        "primary",
+        "accent",
+        "muted"
+      ],
+      "default": "gray"
+    },
+    "spacing": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large",
+        "extra-large"
+      ],
+      "default": "medium"
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "half",
+        "quarter",
+        "auto"
+      ],
+      "default": "full"
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "center"
+    },
+    "customText": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "showIcon": {
+      "type": "boolean",
+      "default": false
+    },
+    "iconName": {
+      "type": "enumeration",
+      "enum": [
+        "star",
+        "diamond",
+        "circle",
+        "square",
+        "heart",
+        "flower"
+      ],
+      "default": "star"
+    }
+  }
+}
