@@ -2,7 +2,8 @@
   "collectionName": "components_shared_media",
   "info": {
     "displayName": "Media",
-    "icon": "file-video"
+    "icon": "file-video",
+    "description": "Media component with size and alignment options"
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,22 @@
       "allowedTypes": ["images", "files", "videos"],
       "type": "media",
       "multiple": false
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": ["small", "medium", "large"],
+      "default": "medium",
+      "required": false
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": ["left", "center", "right"],
+      "default": "center",
+      "required": false
+    },
+    "caption": {
+      "type": "text",
+      "required": false
     }
   }
 }
