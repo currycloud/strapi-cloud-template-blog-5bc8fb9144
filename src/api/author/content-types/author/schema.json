@@ -24,6 +24,28 @@
     "email": {
       "type": "string"
     },
+    "bio": {
+      "type": "text",
+      "maxLength": 500
+    },
+    "title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
     "articles": {
       "type": "relation",
       "relation": "oneToMany",
